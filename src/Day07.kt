@@ -18,15 +18,15 @@ fun main() {
     }
 
 
-    val testInput = readInput("Day07_test")
+    val testInput = readInputToLines("Day07_test")
     check(part1(testInput) == 37)
     check(part2(testInput) == 168)
 
-    val input = readInput("Day07")
+    val input = readInputToLines("Day07")
     println(part1(input))
     println(part2(input))
 
-    val input2 = readInput("Day07_2")
+    val input2 = readInputToLines("Day07_2")
     println(part1(input2))
     println(part2(input2))
 }

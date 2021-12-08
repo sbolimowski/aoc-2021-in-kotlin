@@ -51,15 +51,15 @@ fun main() {
     }
 
     // test if implementation meets criteria from the description, like:
-    val testInput = readInput("Day03_test")
+    val testInput = readInputToLines("Day03_test")
     check(part1(testInput) == 198)
     check(part2(testInput) == 230)
 
-    val input = readInput("Day03")
+    val input = readInputToLines("Day03")
     println(part1(input))
     println(part2(input))
 
-    val input2 = readInput("Day03_2")
+    val input2 = readInputToLines("Day03_2")
     println(part1(input2))
     println(part2(input2))
 }

@@ -25,15 +25,15 @@ fun main() {
     }
 
     // test if implementation meets criteria from the description, like:
-    val testInput = readInput("Day01_test")
+    val testInput = readInputToLines("Day01_test")
     check(part1(testInput) == 7)
     check(part2(testInput) == 5)
 
-    val input = readInput("Day01")
+    val input = readInputToLines("Day01")
     println(part1(input))
     println(part2(input))
 
-    val input2 = readInput("Day01_2")
+    val input2 = readInputToLines("Day01_2")
     println(part1(input2))
     println(part2(input2))
 }
