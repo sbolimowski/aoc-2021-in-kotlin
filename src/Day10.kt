@@ -47,20 +47,6 @@ fun main() {
             score = score * 5 + bracketValue(bracket)
         }
 
-//        val closingBrackets = openBrackets.map {
-//            when(it) {
-//                '(' -> ')'
-//                '[' -> ']'
-//                '{' -> '}'
-//                '<' -> '>'
-//                else -> it
-//            }
-//        }.reversed()
-//        var score2 = 0L
-//        closingBrackets.forEach { bracket ->
-//            score2 = score2 * 5 + bracketValue(bracket)
-//        }
-//        println(closingBrackets.joinToString("") + "-> $score, $score2")
         return score
     }
 
